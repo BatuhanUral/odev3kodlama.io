@@ -1,0 +1,33 @@
+HTML:
+  HTML Hyper Text Markup Language kelimelerinin kısaltılması şeklinde olan metin işaretleme dilidir. Web sitelerin oluşturulmasında kullanılan bir programlama dilidir, bu dilin çalışabilmesi için chrome, firefox, safari, edge, opera gibi tarayıcılar tarafından derlenmesi gerekmektedir. Bu yazımızda HTML dilinin detaylarına ve kullanım alanlarına göz atacağız hepinize iyi okumalar dileriz.
+
+
+ -->  HTML ile Neler Yapabiliriz ? 
+  
+HTML tam olarak bir programlama dili sayılmaz HTML ile Javascript, C#, Python veya benzeri programlama dilleri gibi alışılmış if else sorgu yapıları yada for & while gibi döngü yapıları bulunmamaktadır. Bu nedenle HTML için bir metin işaretleme dili dememiz daha doğru olacaktır. HTML kullanım amacı web siteleri için görsel, yazı ve video gibi içeriklerin konumlandırılmasını sağlamaktır.
+
+--> Locators:
+  Locatorlar ile selenium html dilinde yazılmış olan web sitesiyle etkileşime girebilmektedir. Bir butona tıklama için veyahut arama çubuğuna girilecek bir metin için o alanın locators ile seçilmesi gerekmektedir. XPATH, FULLXPATH, ID, NAME gibi bir çok şekilde bu işlem gerçekleştirilebilmektedir.
+
+-->Selenium Aksiyonları:
+  Selenium, otomatik web testleri yapmak için kullanılan açık kaynaklı bir araçtır. Selenium WebDriver, web sayfalarını açabilir, kullanıcı eylemlerini taklit edebilir ve sonuçları kontrol edebilir. Bazı Selenium aksiyonları şunları içerir:
+
+find_element_by_xpath: Bir XPath ifadesi kullanarak bir web sayfasındaki bir öğeyi bulur.
+
+click: Bir öğeye tıklar.
+
+send_keys: Bir öğeye klavyeden veri girer.
+
+clear: Bir öğedeki metni veya değeri temizler.
+
+get: Bir URL'ye gider.
+
+get_attribute: Bir öğenin belirli bir özniteliğinin değerini döndürür.
+
+is_displayed: Bir öğenin görünür olup olmadığını kontrol eder.
+
+is_enabled: Bir öğenin etkin olup olmadığını kontrol eder.
+
+is_selected: Bir öğenin seçili olup olmadığını kontrol eder.
+
+  Bu aksiyonlar, Selenium'un web sayfaları üzerinde işlem yaparak test senaryolarını otomatikleştirmesine olanak tanır. Bunlar, Selenium WebDriver tarafından sunulan diğer birçok aksiyondan sadece bazılarıdır.
